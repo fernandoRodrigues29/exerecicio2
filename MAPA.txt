@@ -1,0 +1,47 @@
+O índice de massa corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal. Tal índice foi desenvolvido pelo polímata Lambert Quételet, no fim do século XIX. Trata-se de um método fácil e rápido para a avaliação do nível de gordura de cada pessoa, ou seja, é um preditor internacional de obesidade adotado pela Organização Mundial da Saúde (OMS) (Wikipédia, online).
+
+Para calcular o IMC, a fórmula é simples: IMC = massa (em kg) / (altura * altura) (em m).
+
+Crie uma página, utilizando HTML, CSS e Javascript (com jQuery ou não), para calcular o IMC de uma pessoa. Envie um arquivo compactado com todos os arquivos que você utilizou. É possível fazer em um arquivo só, mas existem diferentes formas de resolver.
+
+* A página terá um campo para o peso e um para altura.
+* A página deve calcular o IMC e exibir na tela sem reload de página.
+* A página deve estar bem formatada com CSS, tente algo simples e bonito.
+* Não use nenhuma biblioteca além do jQuery.
+* Não use bootstrap.
+* Não use o CSS do bootstrap.
+
+Ao exibir o IMC da pessoa, você deve informar a que condição de IMC a pessoa pertence, de acordo com a tabela a seguir. 
+
+
+IMPORTANTE: Você deve entregar o arquivo compactado com todos os arquivos utilizados na criação da página e postar este aquivo no MAPA.
+
+
+caso de uso
+
+requisitos
+	calcular imc
+
+descriçao funcional do caso de uso
+
+objetivo: fazer o calculo do imc e restornar uma mensagem de resposta
+fluxo normal
+	1 sistema mostra um formulario com dois campos, altura e peso,ambos com mascara de valor
+	2 o usuario preenche os campos com valores com ponto flutuante epeciona o botão
+	3 o sistema calcula o imc e retorna uma mensagem com dois valores,
+	o imc e a descrição segundo a tabela (nomal, sobrepeso, obeso ...)
+fluxo alternativo 1(campos com valores não reais)
+	1 sistema envia uma mensagem de "tipo de valor incorreto", e limpa o campo		
+
+IMC   codição
+<18,5 baixo peso
+18,5 - 25 pesso ideal
+25-30 sobrepeso
+30-35 obesidade grau 1
+35 - 40 obsidade grau 2
+>40 obesidade grau 3
+
+
+
+
+
